@@ -62,6 +62,8 @@ class Master {
 
 		if ( class_exists( $class_name ) ) {
 			self::$importers[ $key ] = $class_name;
+		} else {
+			throw new \Exception( sprintf( __( 'Importer class not found: "%s"', 'hmci' ), $class_name ) );
 		}
 	}
 
@@ -112,6 +114,8 @@ class Master {
 
 		if ( class_exists( $class_name ) ) {
 			self::$validators[ $key ] = $class_name;
+		} else {
+			throw new \Exception( sprintf( __( 'Importer class not found: "%s"', 'hmci' ), $class_name ) );
 		}
 	}
 
