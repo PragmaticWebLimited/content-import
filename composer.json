@@ -1,10 +1,10 @@
 {
-    "name": "humanmade/hm-content-import",
+    "name": "pragmaticweblimited/hm-content-import",
     "description": "Migration framework for WordPress",
     "type": "wordpress-plugin",
-    "license": "GPL-2.0-or-later",
+    "license": "GPL-3.0-only",
     "require": {
-        "composer/installers": "^1",
-        "php": ">=7"
+        "php": ">=7.2",
+        "composer/installers": "^1.7"
     }
 }
