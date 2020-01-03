@@ -1,10 +1,12 @@
-# HM Content Import
+# Content Import
+
+> Based on https://github.com/humanmade/hm-content-import by Human Made (under GPLv3).
 
 Migration framework for WordPress, attempts to reduce overhead in migrating content from differing data sources
 
 ## Introduction
 
-HMCI is an extensible, performant, scriptable, pausable, resumable, and horizontally scalable WP-CLI framework for importing large amounts of content into WordPress. It is a base framework for performing custom migrations of large amounts of content from any source and therefore requires the development of an import handler for each type of content being imported.
+Content Import (aka HMCI) is an extensible, performant, scriptable, pausable, resumable, and horizontally scalable WP-CLI framework for importing large amounts of content into WordPress. It is a base framework for performing custom migrations of large amounts of content from any source and therefore requires the development of an import handler for each type of content being imported.
 
 It typically supports both new imports and delta imports, although this is dependent on the individual import handlers written for each migration.
 
